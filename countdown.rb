@@ -3,6 +3,7 @@
 def countdown(number)
   while number > 0 do 
         number =- 1
+        break if number == 0
     puts "#{number} SECOND(S)!"
 
   end
